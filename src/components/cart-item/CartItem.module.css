@@ -41,6 +41,11 @@
   font-size: 1em;
 }
 
+.count {
+  margin: 0 1em;
+  text-decoration: underline;
+}
+
 .removeItem {
   height: 50px;
   margin: 0 10px;

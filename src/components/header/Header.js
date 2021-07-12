@@ -31,8 +31,8 @@ export const Header = () => {
   const classes = useStyles();
 
   return (
-    <div>
-      <AppBar position="static">
+    <div className={classes.root}>
+      <AppBar position="fixed">
         <Toolbar>
           <Link to="/">
             <IconButton

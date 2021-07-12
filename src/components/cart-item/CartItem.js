@@ -13,6 +13,7 @@ const CartItem = ({ item }) => {
       </div>
       <p className={styles.title}>{item.title}</p>
       <p className={styles.price}>&#8369;{item.price}</p>
+      <p className={styles.count}>{item.count}</p>
       <button
         className={styles.removeItem}
         onClick={() => dispatch(removeFromCart(item))}
